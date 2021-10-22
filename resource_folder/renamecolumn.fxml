@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="194.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.renameColumnController">
+   <children>
+      <TextField fx:id="columnnameTextField" layoutX="24.0" layoutY="71.0" prefHeight="26.0" prefWidth="325.0" promptText="Column Name" />
+      <Label layoutX="24.0" layoutY="51.0" text="Column Name" />
+      <Button fx:id="updateColumntNameButton" layoutX="59.0" layoutY="127.0" mnemonicParsing="false" onAction="#updateColumnNameOnAction" prefHeight="46.0" prefWidth="53.0" text="Ok" />
+      <Button fx:id="closeButton" layoutX="247.0" layoutY="127.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="46.0" prefWidth="53.0" text="Cancel" />
+      <Label fx:id="newColumnStatus" alignment="CENTER" layoutX="37.0" layoutY="103.0" prefHeight="18.0" prefWidth="294.0" textFill="RED" />
+   </children>
+</AnchorPane>

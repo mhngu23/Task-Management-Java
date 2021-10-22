@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="167.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.newProjectController">
+   <children>
+      <TextField fx:id="newprojectTextBox" layoutX="40.0" layoutY="46.0" prefHeight="26.0" prefWidth="294.0" promptText="New Project" />
+      <Button fx:id="OKButton" layoutX="106.0" layoutY="108.0" mnemonicParsing="false" onAction="#OKButtonAction" prefHeight="26.0" prefWidth="64.0" text="Ok" />
+      <Button fx:id="closeButton" layoutX="200.0" layoutY="108.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="26.0" prefWidth="64.0" text="Cancel" />
+      <Label fx:id="newprojectStatus" alignment="CENTER" layoutX="40.0" layoutY="75.0" prefHeight="18.0" prefWidth="294.0" textFill="RED" />
+   </children>
+</AnchorPane>
